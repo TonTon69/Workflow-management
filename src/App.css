@@ -39,3 +39,13 @@
 .mt-40 {
   margin: 15px 0;
 }
+.mr-5 {
+  margin-right: 5px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.btn:focus {
+  outline: none;
+  border-color: unset;
+}

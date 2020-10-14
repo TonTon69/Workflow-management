@@ -20,8 +20,12 @@ class TaskForm extends Component {
                 </select>
                 <br/>
                 <div className="text-center">
-                    <button type="submit" className="btn btn-warning">Thêm</button>&nbsp;
-                    <button type="submit" className="btn btn-danger">Hủy Bỏ</button>
+                    <button type="submit" className="btn btn-warning">
+                      <span className="fa fa-plus mr-5"></span>Thêm
+                    </button>&nbsp;
+                    <button type="submit" className="btn btn-danger">
+                    <span className="fa fa-times mr-5"></span>Hủy Bỏ
+                    </button>
                 </div>
             </form>
         </div>
